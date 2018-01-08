@@ -14,6 +14,9 @@ public class MessageHandler {
         commandMap.put("test", (event, args) -> {
             BotUtils.sendMessage(event.getChannel(), "Test!", "Test!", event, true);
         });
+        commandMap.put("ping", (event, args) -> {
+           BotUtils.sendMessage(event.getChannel(),"Pong!", "Pong!", event, true);
+        });
     }
 
     @EventSubscriber
