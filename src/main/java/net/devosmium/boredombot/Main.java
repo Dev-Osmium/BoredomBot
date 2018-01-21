@@ -1,6 +1,6 @@
 package net.devosmium.boredombot;
 
-import sx.blah.discord.api.IDiscordClient;
+        import sx.blah.discord.api.IDiscordClient;
 
 /**
  * Created and maintained by Dev_Osmium on 20-Nov-17 at 9:06 PM
