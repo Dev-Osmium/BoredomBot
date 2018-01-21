@@ -17,6 +17,10 @@ public class MessageHandler {
         commandMap.put("ping", (event, args) -> {
            BotUtils.sendMessage(event.getChannel(),"Pong!", "Pong!", event, true);
         });
+        commandMap.put("information", (event,args) -> {
+            BotUtils.sendMessage(event.getChannel(), "BoredomBot is developed by two friends who got bored one day. " +
+                    "Don't expect too much lmao", "Information!", event, false);
+        });
     }
 
     @EventSubscriber
